@@ -12,3 +12,7 @@ outDir => arquivos executados cairão dentro da pasta app/json
  npm run compile
 
  noEmitOnError => não permite compile enquanto código houver erro
+
+ start => automatizar processo de  (-w watch)
+
+ npm start => serviço de monitoramento em ação
