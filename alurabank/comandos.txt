@@ -1,0 +1,14 @@
+npm init
+
+npm install typescript@2.3.2 --save-dev
+
+tsconfig.json => typescript config - arquivo de configuração para o compilador quando
+executado
+
+outDir => arquivos executados cairão dentro da pasta app/json
+
+ "compile": "tsc" => compilador do typescript
+
+ npm run compile
+
+ noEmitOnError => não permite compile enquanto código houver erro
