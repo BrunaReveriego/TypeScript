@@ -23,7 +23,7 @@ class NegociacaoController {
             this._inputValor.value
         );
 
-        console.log(negociacao);
+        console.log(negociacao.quantidade + 20);
     }
 
 }

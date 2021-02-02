@@ -16,3 +16,5 @@ outDir => arquivos executados cairão dentro da pasta app/json
  start => automatizar processo de  (-w watch)
 
  npm start => serviço de monitoramento em ação
+
+ noImplicitAny => não adotar tipo nenhum para as properties
