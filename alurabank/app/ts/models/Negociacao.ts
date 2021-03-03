@@ -1,10 +1,11 @@
 class Negociacao {
 
-    private _data;
-    private _quantidade;
-    private _valor;
+    // private _data: Date;
+    // private _quantidade: number;
+    // private _valor: number;
 
-    constructor(data, quantidade, valor) {
+    //atributos privados
+    constructor(private _data: Date, private _quantidade: number, private _valor: number) {
 
         // if(!data) {
         //     throw new Error('Data deve ser preenchida');
@@ -25,9 +26,9 @@ class Negociacao {
         //propriedades não podem ser alteradas fora dos métodos da própria classe
         //utilizar underscore
 
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
+        // this._data = data;
+        // this._quantidade = quantidade;
+        // this._valor = valor;
 
     }
 
@@ -35,7 +36,7 @@ class Negociacao {
         return this._data;
     }
 
-  
+
     get quantidade() {
         return this._quantidade;
     }
